@@ -1,6 +1,14 @@
 # Disaster Tweets Classification
 
 基于 BERTweet/BERT 的灾难推文分类模型，用于 [Kaggle NLP with Disaster Tweets](https://www.kaggle.com/competitions/nlp-getting-started) 比赛。
+## 实验结果
+
+详见 [EXPERIMENTS.md](EXPERIMENTS.md)
+
+| 模型 | Val F1 | Val Acc | 备注 |
+|------|--------|---------|------|
+| BERTweet Base | **0.8337** | 0.8599 | 最佳 Epoch 2 |
+
 
 ## 快速开始
 
@@ -53,11 +61,5 @@ python run.py predict --model_dir outputs/bertweet_xxx/best_model
 └── submissions/        # 提交文件
 ```
 
-## 实验结果
 
-详见 [EXPERIMENTS.md](EXPERIMENTS.md)
-
-| 模型 | Val F1 | Val Acc | 备注 |
-|------|--------|---------|------|
-| BERTweet Base | **0.8337** | 0.8599 | 最佳 Epoch 2 |
 
