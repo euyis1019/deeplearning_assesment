@@ -1,0 +1,45 @@
+# Data files
+data/
+*.csv
+
+# Model outputs
+outputs/
+submissions/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Virtual environment
+venv/
+env/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Kaggle
+kaggle.json
+
