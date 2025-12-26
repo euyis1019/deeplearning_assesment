@@ -1,10 +1,20 @@
 # Data files
 data/
 *.csv
+*.zip
 
 # Model outputs
 outputs/
 submissions/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+
+# Huggingface cache
+.cache/
+huggingface/
 
 # Python
 __pycache__/
@@ -21,6 +31,7 @@ build/
 venv/
 env/
 .env
+.venv/
 
 # IDE
 .idea/
@@ -31,6 +42,7 @@ env/
 
 # Jupyter
 .ipynb_checkpoints/
+*.ipynb
 
 # OS
 .DS_Store
@@ -39,7 +51,11 @@ Thumbs.db
 # Logs
 *.log
 logs/
+wandb/
+runs/
 
 # Kaggle
 kaggle.json
 
+# Claude
+.claude/
