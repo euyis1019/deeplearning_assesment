@@ -9,7 +9,6 @@ import argparse
 import pandas as pd
 import json
 from datetime import datetime
-from pathlib import Path
 
 # Add src to path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
@@ -229,7 +228,7 @@ def main():
     parser.add_argument(
         '--api_key',
         type=str,
-        default='sk-DUuJeAxX6fwNViL2JHRIHj4SI9OEcDlr4TMctin2DLxvuFY8',
+        default='sk-[your-api-key]',
         help='API key'
     )
 
