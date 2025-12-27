@@ -41,8 +41,8 @@
 | 模型 | Val F1 | Val Acc | 备注 |
 |------|--------|---------|------|
 | BERTweet Base (12.7) | 0.8337 | 0.8599 | 最佳 Epoch 2 |
-| Qwen2.5-1.5B LoRA (12.15) | ~0.80 | 0.8290 | LoRA微调 |
-| DeepSeek-V3 Few-Shot (12.25) | **~0.81** | **0.8400** | 8-shot learning |
+| Qwen2.5-1.5B LoRA (12.15) | 0.8041 | 0.8290 | LoRA微调 |
+| DeepSeek-V3 Few-Shot (12.25) | **0.8148** | **0.8400** | 8-shot learning |
 
 
 ## 快速开始
